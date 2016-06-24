@@ -1,0 +1,44 @@
+# Small tweaks (e.g. css & java files are add to the docs folder)
+# extra_css: ['/stylesheets/extra.css']
+# extra_javascript: ['/javascripts/extra.js']
+
+site_name: GoodKids
+site_url: http://kindbah.com
+site_description: Drop Knowlede
+site_author: Tudor Saitoc
+
+repo_name: GitHub
+repo_url: https://github.com/tudorsaitoc/goodkids
+
+theme: material
+
+pages:
+- hi: index.md
+
+font:
+  text: Roboto
+  code: Roboto Mono
+
+i18n:
+- prev: Previous
+- next: Next
+
+extra:
+  version: 0.1.0
+
+
+
+# author:
+  github: tudorsaitoc
+  twitter: tudorsaitoc
+
+
+markdown_extensions:
+ - codehilite(css_class=code)
+ - admonition:
+ - toc:
+     permalink: #
+
+# Footer
+#google_analytics: ['UA-XXXXXX-X', 'auto']
+copyright: Copyright (c) 2016 Tudor Saitoch
